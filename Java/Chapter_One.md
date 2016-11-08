@@ -30,13 +30,13 @@
 ###5.编译Java程序
 &emsp;&emsp;对于初学者而言，先掌握javac命令的如下用法：
 
-&emsp;&emsp;`javac -d destdir srcFile`
+`javac -d destdir srcFile`
 
 &emsp;&emsp;-d destdir是javac命令的选项，用以指定编译生成的字节码文件的存放路径，destdir只需是本地磁盘上的一个有效路径即可；而srcFile是Java源文件所在的位置，这个位置既可以是绝对路径，也可以是相对路径。
 
 &emsp;&emsp;通常，总是将生成的字节码文件放在当前路径下，当前路径可以用一点(.)来表示。在命令窗口进入HelloWorld.java文件所在路径，在该路径下输入：
 
-&emsp;&emsp;`javac -d . HelloWorld.java`
+`javac -d . HelloWorld.java`
 
 &emsp;&emsp;运行命令后，在该路径下生成一个HelloWorld.class文件。
 ###6.运行Java程序
