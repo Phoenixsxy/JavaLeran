@@ -48,3 +48,9 @@
 
 ###7.Java程序的基本规则
 &emsp;&emsp;Java是一种纯粹的面向对象的程序设计语言，因此Java程序必须以类（class）的形式存在，类是Java程序的最小程序单位。
+&emsp;&emsp;Java程序源代码里定义了一个public类，则该源文件的文件名必须与public类的类名相同。**一个Java源文件里最多只能定义一个public类**
+
+&emsp;&emsp;>建议：1.一个源文件只定义一个类，不同的类使用不同的源文件定义。
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.让Java源文件的主文件名与该
+
