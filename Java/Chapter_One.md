@@ -52,5 +52,5 @@
 
 &emsp;&emsp;>建议：1.一个源文件只定义一个类，不同的类使用不同的源文件定义。
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.让Java源文件的主文件名与该
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.让Java源文件的主文件名与该源文件中定义的public类同名
 
