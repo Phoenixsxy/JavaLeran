@@ -54,4 +54,4 @@
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.让Java源文件的主文件名与该源文件中定义的public类同名
 
->**查看Java版本命令：java -version**
+##查看Java版本命令：java -version
