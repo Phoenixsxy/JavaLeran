@@ -79,5 +79,42 @@
 
 &emsp;&emsp;两者区别，逻辑与和逻辑或无论如何都算完，短路与和短路或满足条件后只算一部分，另一条件不管。
 
+###5.文档注释
+&emsp;&emsp;开发一个大型软件时，需要定义成千上万的类，而且需要很多人参与开发。这时候就需要提供一份说明文档，用于说明每个类、每个方法的用途。当其他人使用一个类或一个方法时，他无须关心这个类或这个方法的具体实现，他只要知道这个类或这个方法的功能即可，然后使用这个类或方法来实现具体的目的，也就是通过调用应用程序接口（API）来编程。API文档就是用以说明这些应用程序接口的文档。
 
+&emsp;&emsp;**javadoc**工具只处理文档源文件在类、接口、方法、Field、构造器和内部类之前的注释，忽略其他地方的文档注释。而且javadoc工具默认只处理以public或protected修饰的类、接口、方法、Field、构造器和内部类之前的注释。
 
+&emsp;&emsp;文档注释以斜线后紧跟两个星号（/**）开始，以星号后紧跟一个斜线（*/)作为结尾，中间部分全部都是文档注释，会被提取到API文档中。
+
+####&emsp;&emsp;javadoc 选项 Java 源文件/包
+
+&emsp;&emsp;例如：![](http://i.imgur.com/LO2DqKB.png)
+
+&emsp;&emsp;-d<directory>:该选项指定一个路径，用于将生成的API文档放到指定目录下。
+
+&emsp;&emsp;-windowtitle<text>:该选项制定了一个字符串，用于设置API文档的浏览器窗口标题。
+
+&emsp;&emsp;-doctitle<html-code>:该选项指定一个HTML格式的文本，用于指定概述页面的标题。（只有对于多个包下的源文件来生成API文档时，才有概述页面。
+
+&emsp;&emsp;-header<html-code>:该选项指定一个HTML格式的文本，包含每个页面的页眉。
+
+![](http://i.imgur.com/qGKDtgi.png)
+![](http://i.imgur.com/F9lRXVh.png)
+
+&emsp;&emsp;常用的javadoc标记：
+
+&emsp;&emsp;@author:指定Java程序的作者。
+
+&emsp;&emsp;@version:指定源文件的版本
+
+&emsp;&emsp;@deprecated:不推荐使用的方法
+
+&emsp;&emsp;@param:方法的参数说明信息
+
+&emsp;&emsp;@return:方法的返回值说明信息
+
+&emsp;&emsp;@see:“参见”，用于指定交叉参考的内容
+
+&emsp;&emsp;@exception:抛出异常的类型
+
+&emsp;&emsp;@throws:抛出的异常，和exception同义
