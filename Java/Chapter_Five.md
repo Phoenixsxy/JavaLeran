@@ -81,4 +81,34 @@
 
 &emsp;&emsp;让大家使用需要把.jar添加到classpath中
 
-###6.
+###6.类的继承
+&emsp;&emsp;Java中使用extends关键字实现类的继承机制，其语法规则为：
+
+&emsp;&emsp;<modifier> class <name> [extends<superclass>]{...}
+
+&emsp;&emsp;eg:class Student extends Person
+
+&emsp;&emsp;通过继承，子类自动拥有了基类（superclass)的所有成员（成员变量和方法）。
+
+&emsp;&emsp;一个子类只能有一个基类 一个基类可以派生出多个子类
+
+&emsp;&emsp;内存分布如下：（new语句）
+![](http://i.imgur.com/m0oM6lk.png)
+
+###7.访问控制
+![](http://i.imgur.com/JKRgkAL.png)
+
+&emsp;&emsp;default就是前面什么都不加；**private子类也不可以访问！**
+
+&emsp;&emsp;成员定义前可以用四个。对于class的权限修饰只可以用public和default(什么都不写）
+
+###8.方法的重写
+&emsp;&emsp;在子类中可以根据需要对从基类中继承来的方法进行重写。
+
+&emsp;&emsp;重写方法必须和被重写方法具有**相同**的方法名称、参数列表和返回类型。
+
+&emsp;&emsp;重写方法不能使用比被重写方法更**严格**的访问权限。
+
+###8.super关键字
+&emsp;&emsp;在Java类中使用super来引用基类的成分。
+![](http://i.imgur.com/1BazlSM.png)   
