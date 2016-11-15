@@ -1,5 +1,4 @@
 #<center>第5章 面向对象</center>
-<br>
 ###1.类的定义
 
 &emsp;&emsp;[修饰符] class 类名
@@ -60,3 +59,26 @@
 &emsp;&emsp;**main方法是static的，不需要new对象就可以运行。可以直接访问。**
 
 &emsp;&emsp;**静态的方法static，不可以访问非static成员。**（非静态成员专属于某个对象） 
+
+###5.package和import
+&emsp;&emsp;为便于管理大型软件系统中数目众多的类，解决类的**命名冲突问题**，Java引入包(packge)机制，提供类的多重类命名空间。
+
+&emsp;&emsp;package 包名（约定俗称，把公司的域名倒过来，避免重复）
+
+&emsp;&emsp;package必须是第一条**语句**（若缺省该语句，则指定为无名包）
+
+&emsp;&emsp;编译出来的class文件必须位于正确的目录下，和包的层次完全一致，要用这个类，要把名字写全，pack1.pack2.pack3.类；**执行的时候也要写全包名**（该类的源代码.java可能会产生影响，通常删除或转移到另外的目录中）
+
+&emsp;&emsp;为了简写可以写 **import** pack1.pack2.pack3.(*表示所有的类都引入，可以直接使用）位于同一个包中的类不需要引入
+
+###&emsp;&emsp;class文件的最上层包的父目录必须位于classpath下
+
+&emsp;&emsp;J2SDK中主要的包介绍：（C:\Java\jre1.8.0_101\lib\rt.jar)
+
+&emsp;&emsp;①java.lang——包含一些java语言的核心类,如String、Math、Integer、System和Thread，提供常用功能（**唯一不用引入的包**）
+
+###&emsp;&emsp;jar -cvf [名字].jar \*.\*  命令可以打包，定位到最上层包的最上层
+
+&emsp;&emsp;让大家使用需要把.jar添加到classpath中
+
+###6.
