@@ -54,6 +54,8 @@
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.让Java源文件的主文件名与该源文件中定义的public类同名
 
+###8.Java垃圾回收机制
+&emsp;&emsp;Java程序的内存分配和回收都是由JRE在后台自动进行的。当没有对象引用指向原先分配给某个对象的内存时，该内存成为垃圾。
 ##查看Java版本命令：java -version
 
 ##程序执行入口 public static void main(String args[]){...}
