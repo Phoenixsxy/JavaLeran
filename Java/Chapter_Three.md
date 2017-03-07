@@ -23,6 +23,7 @@
 
 ###3.Java基本数据类型
 ![](http://i.imgur.com/A3M0vq9.png)
+
 &emsp;&emsp;**内存里占的小格的大小，小格里布局（里面的0101排列不一样）**来区分不同数据类型
 
 &emsp;&emsp;①逻辑型Boolean
