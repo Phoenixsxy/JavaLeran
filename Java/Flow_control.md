@@ -1,4 +1,4 @@
-#<center>第4章 流程控制与数组</center> 
+#<center>第4章 流程控制</center> 
 ###1.while
 
 &emsp;&emsp;do{}while（） **;**
