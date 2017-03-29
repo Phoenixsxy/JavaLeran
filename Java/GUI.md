@@ -35,7 +35,20 @@
 ###4.事件处理
 
 ![](http://i.imgur.com/HJHuuY5.png)
+&emsp;&emsp;事件对象即需要监听的对象。事件可能是多种事件。
+
+![](http://i.imgur.com/N1KIcNL.png)
+
+####&emsp;&emsp;内部类
+![](http://i.imgur.com/jcYAXF7.png)
 
 ###5.Java图形
 
+####&emsp;&emsp;Graphics类
+
+&emsp;&emsp;paint方法自动调用，graphics相当于画笔。当frame需要被重画的时候，paint方法就会被自动调用。例如：第一次出现窗口，改变窗口大小，遮盖又显示的时候
+
+####&emsp;&emsp;鼠标事件适配器
+![](http://i.imgur.com/AtKTElj.png)
 ###6.Window事件
+![](http://i.imgur.com/yjLWKc4.png)
